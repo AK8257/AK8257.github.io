@@ -1547,13 +1547,16 @@ body {
     }
 
     .menu-links-list {
-        height: 75vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
 
     .list-nav-a {
+        margin: 0 0 25px 0;
+    }
+    
+    .list-nav-a:last-of-type {
         margin: 0;
     }
 
