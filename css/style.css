@@ -1500,6 +1500,7 @@ body {
     .main-menu-burger-switcher:checked ~ .main-menu {
         visibility: visible;
         padding-top: 140px;
+        position: fixed;
     }
 
     .main-menu-burger-switcher:checked ~ .nav-buy-search {
