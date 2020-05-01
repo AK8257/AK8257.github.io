@@ -1503,7 +1503,7 @@ body {
 
     .main-menu-burger-switcher:checked ~ .nav-buy-search {
         visibility: visible;
-        top: 540px;
+        top: 10px;
     }
 
     .main-menu-burger-switcher:checked ~ .main-menu-burger-buttons {
@@ -1542,7 +1542,7 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-content: flex-end;
-        padding-top: 84px;
+        padding-top: 140px;
         background-color: #998675;
         z-index: 1;
         box-sizing: border-box;
@@ -1571,7 +1571,7 @@ body {
         visibility: hidden;
         position: fixed;
         right: 0;
-        top: 540px;
+        top: 10px;
         min-height: 100vh;
         width: 100vw;
         flex-direction: column;
