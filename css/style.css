@@ -191,7 +191,7 @@ body {
 
 .search-field {
     position: absolute;
-    right: -470px;
+    right: -580px;
     top: 100px;
     height: 36px;
     width: 0px;
@@ -1436,7 +1436,7 @@ body {
     }
 
     .head-part {
-        padding: 30px 20px 85px 20px;
+        padding: 30px 20px 90px 20px;
         background-image: url(../img/bg_photo_11949.jpg);
         filter: ;
         background-repeat: no-repeat;
@@ -1489,6 +1489,10 @@ body {
         position: fixed
     }
 
+    .main-menu-burger-switcher:checked ~ .logo {
+        position: fixed;
+    }
+
     .main-menu-burger-switcher:checked ~ .header-logo {
         position: fixed;
         top: 24px;
@@ -1499,13 +1503,10 @@ body {
 
     .main-menu-burger-switcher:checked ~ .main-menu {
         visibility: visible;
-        padding-top: 140px;
-        position: fixed;
     }
 
     .main-menu-burger-switcher:checked ~ .nav-buy-search {
         visibility: visible;
-        top: 10px;
     }
 
     .main-menu-burger-switcher:checked ~ .main-menu-burger-buttons {
@@ -1532,7 +1533,7 @@ body {
         visibility: hidden;
         position: fixed;
         right: 0;
-        top: 1px;
+        top: 0;
         min-height: 101vh;
         width: 100vw;
         flex-direction: column;
@@ -1546,6 +1547,7 @@ body {
     }
 
     .menu-links-list {
+        height: 75vh;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -1566,13 +1568,13 @@ body {
         visibility: hidden;
         position: fixed;
         right: 0;
-        top: 10px;
+        top: 0px;
         min-height: 100vh;
         width: 100vw;
         flex-direction: column;
         justify-content: flex-start;
         align-content: flex-end;
-        padding-top: 84px;
+        padding-top: 94px;
         background-color: transparent;
         z-index: 1;
         box-sizing: border-box;
@@ -1584,7 +1586,7 @@ body {
     }
 
     .search-field {
-        right: 75px;
+        right: auto;
         top: 120px;
     }
 
@@ -1896,3 +1898,9 @@ body {
     .links:last-of-type {
         margin: 30px 0 0 0;
     }
+
+    .links-item-text {}
+
+    .brand-link {}
+
+    .links-item-link {}
